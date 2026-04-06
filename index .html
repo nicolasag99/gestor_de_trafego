@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FlowAds — Gestor de Tráfego</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#" class="logo">Flow<span>Ads</span></a>
+  <ul class="nav-links">
+    <li><a href="#servicos">Serviços</a></li>
+    <li><a href="#processo">Processo</a></li>
+    <li><a href="#plataformas">Plataformas</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="#sobre">Sobre</a></li>
+  </ul>
+  <a href="#contato" class="nav-cta">Falar com especialista →</a>
+  <div class="burger" id="burger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- MOBILE NAV -->
+<div class="site-mobile-menu" id="mobileNav">
+  <a href="#servicos" onclick="toggleMenu()">Serviços</a>
+  <a href="#processo" onclick="toggleMenu()">Processo</a>
+  <a href="#plataformas" onclick="toggleMenu()">Plataformas</a>
+  <a href="#faq" onclick="toggleMenu()">FAQ</a>
+  <a href="#sobre" onclick="toggleMenu()">Sobre</a>
+  <a href="#contato" onclick="toggleMenu()" style="color:var(--blue)">Contato</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="hero-badge">Gestor de Tráfego Pago</div>
+    <h1>Tráfego que<br><em>converte</em><br>Resultados reais.</em></h1>
+    <p class="hero-sub">Gerencio campanhas de tráfego pago e crio sites e landing pages de alta performance para transformar cliques em clientes.</p>
+    <div class="hero-actions">
+      <a href="#contato" class="btn-primary">Quero aumentar meus resultados →</a>
+      <a href="#servicos" class="btn-ghost">Ver serviços</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="num">−50<span>%</span></div>
+        <p>Redução de custo<br>por lead</p>
+      </div>
+      <div class="stat-item">
+        <div class="num">4.8<span>×</span></div>
+        <p>ROAS médio<br>das campanhas</p>  
+      </div>
+      <div class="stat-item">
+        <div class="num">+100</div>
+        <p>Campanhas<br>gerenciadas</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="platforms-bar">
+  <div class="platforms-track">
+    <div class="platform-pill"><span class="dot"></span>Meta Ads</div>
+    <div class="platform-pill"><span class="dot"></span>Google Ads</div>
+    <div class="platform-pill"><span class="dot"></span>LinkedIn Ads</div>
+    <div class="platform-pill"><span class="dot"></span>TikTok Ads</div>
+    <div class="platform-pill"><span class="dot"></span>Landing Pages</div>
+    <div class="platform-pill"><span class="dot"></span>Sites Profissionais</div>
+    <div class="platform-pill"><span class="dot"></span>Performance Digital</div>
+    <div class="platform-pill"><span class="dot"></span>CRO & Conversão</div>
+    <div class="platform-pill"><span class="dot"></span>Meta Ads</div>
+    <div class="platform-pill"><span class="dot"></span>Google Ads</div>
+    <div class="platform-pill"><span class="dot"></span>LinkedIn Ads</div>
+    <div class="platform-pill"><span class="dot"></span>TikTok Ads</div>
+    <div class="platform-pill"><span class="dot"></span>Landing Pages</div>
+    <div class="platform-pill"><span class="dot"></span>Sites Profissionais</div>
+    <div class="platform-pill"><span class="dot"></span>Performance Digital</div>
+    <div class="platform-pill"><span class="dot"></span>CRO & Conversão</div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="servicos">
+  <div class="services-header reveal">
+    <div class="container text-center mb-5">
+      <div class="section-label justify-content-center">Serviços</div>
+      <h2 class="section-title">Soluções completas para<br><em>escalar seu negócio</em></h2>
+      <p class="section-desc mx-auto">Da estratégia à execução, cuido de tudo para que cada real investido em mídia traga o máximo retorno.</p>
+    </div>
+  </div>
+  <div class="services-grid reveal">
+    <div class="container">
+    <div class="row g-4">
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="service-card service-card--meta h-100">
+          <div class="service-num">— 01</div>
+          <div class="service-icon">📘</div>
+          <h3>Meta Ads</h3>
+          <p>Campanhas no Facebook e Instagram com segmentação precisa de público, criação de funis de conversão e otimização contínua para maximizar ROI.</p>
+          <div class="service-tags"><span class="tag">Facebook</span><span class="tag">Instagram</span><span class="tag">Retargeting</span><span class="tag">Lookalike</span></div>
+          <a href="#contato" class="service-cta">Solicitar proposta →</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="service-card service-card--google h-100">
+          <div class="service-num">— 02</div>
+          <div class="service-icon">🔍</div>
+          <h3>Google Ads</h3>
+          <p>Anúncios de busca, display e shopping gerenciados com estratégia de palavras-chave, otimização de lances e foco em conversão real.</p>
+          <div class="service-tags"><span class="tag">Search</span><span class="tag">Display</span><span class="tag">Shopping</span><span class="tag">YouTube</span></div>
+          <a href="#contato" class="service-cta">Solicitar proposta →</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="service-card service-card--linkedin h-100">
+          <div class="service-num">— 03</div>
+          <div class="service-icon">💼</div>
+          <h3>LinkedIn Ads</h3>
+          <p>Campanhas B2B com segmentação por cargo, setor e empresa. Ideal para geração de leads qualificados e posicionamento corporativo.</p>
+          <div class="service-tags"><span class="tag">B2B</span><span class="tag">Lead Gen</span><span class="tag">Awareness</span></div>
+          <a href="#contato" class="service-cta">Solicitar proposta →</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="service-card service-card--tiktok h-100">
+          <div class="service-num">— 04</div>
+          <div class="service-icon">🎵</div>
+          <h3>TikTok Ads</h3>
+          <p>Campanhas em vídeo para a audiência mais jovem e engajada do mercado. Formatos nativos que convertem atenção em ação.</p>
+          <div class="service-tags"><span class="tag">In-Feed</span><span class="tag">TopView</span><span class="tag">Spark Ads</span></div>
+          <a href="#contato" class="service-cta">Solicitar proposta →</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="service-card service-card--sites h-100">
+          <div class="service-num">— 05</div>
+          <div class="service-icon">🌐</div>
+          <h3>Criação de Sites</h3>
+          <p>Sites institucionais e de serviços desenvolvidos com foco em performance, SEO e experiência do usuário. Rápidos, responsivos e que convertem.</p>
+          <div class="service-tags"><span class="tag">WordPress</span><span class="tag">SEO</span><span class="tag">Mobile First</span></div>
+          <a href="#contato" class="service-cta">Solicitar proposta →</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="service-card service-card--landing h-100">
+          <div class="service-num">— 06</div>
+          <div class="service-icon">🚀</div>
+          <h3>Landing Pages</h3>
+          <p>Páginas de captura e vendas altamente otimizadas para conversão, integradas às campanhas de tráfego para o máximo de aproveitamento.</p>
+          <div class="service-tags"><span class="tag">CRO</span><span class="tag">A/B Test</span><span class="tag">Alta conversão</span></div>
+          <a href="#contato" class="service-cta">Solicitar proposta →</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="processo">
+  <div class="section-label reveal">Processo</div>
+  <h2 class="section-title reveal">Como transformo seu<br><em>investimento em resultado</em></h2>
+  <div class="process-layout">
+    <div class="process-steps reveal">
+      <div class="process-step">
+        <div class="step-num">01</div>
+        <div class="step-content">
+          <h4>Diagnóstico & Estratégia</h4>
+          <p>Análise do seu negócio, concorrentes e público-alvo. Definição da estratégia de tráfego mais adequada para seus objetivos.</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="step-num">02</div>
+        <div class="step-content">
+          <h4>Estruturação das Campanhas</h4>
+          <p>Configuração técnica completa: conta de anúncios, pixel, públicos, criativos e funis de conversão integrados.</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="step-num">03</div>
+        <div class="step-content">
+          <h4>Lançamento & Monitoramento</h4>
+          <p>Ativação das campanhas com acompanhamento em tempo real. Ajustes rápidos para garantir a melhor performance desde o início.</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="step-num">04</div>
+        <div class="step-content">
+          <h4>Otimização Contínua</h4>
+          <p>Análise de dados, testes A/B e otimizações semanais. Cada decisão é baseada em dados, não em achismos.</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="step-num">05</div>
+        <div class="step-content">
+          <h4>Relatórios & Transparência</h4>
+          <p>Relatórios detalhados com todos os indicadores que importam: CPL, CPA, ROAS e evolução mês a mês.</p>
+        </div>
+      </div>
+    </div>
+    <div class="process-visual reveal">
+      <div class="chart-label">ROAS médio mensal dos clientes</div>
+      <div class="visual-chart">
+        <div class="bar" style="height:45%"></div>
+        <div class="bar" style="height:60%"></div>
+        <div class="bar" style="height:42%"></div>
+        <div class="bar" style="height:78%"></div>
+        <div class="bar" style="height:55%"></div>
+        <div class="bar active" style="height:96%"></div>
+        <div class="bar" style="height:72%"></div>
+      </div>
+      <div class="chart-val">4.8<span>×</span> ROAS</div>
+      <div class="chart-label" style="margin-top:.4rem">Retorno médio sobre investimento</div>
+    </div>
+  </div>
+</section>
+
+<!-- PLATFORMS (mesmo design dos cards de #servicos) -->
+<section id="plataformas">
+  <div class="container text-center mb-5">
+    <div class="section-label reveal justify-content-center">Plataformas</div>
+    <h2 class="section-title reveal">Onde seu anúncio<br><em>encontra seu cliente</em></h2>
+  </div>
+  <div class="container">
+  <div class="platforms-list">
+    <article class="platform-row reveal">
+      <div class="service-card service-card--meta h-100">
+        <div class="service-num">— 01</div>
+        <div class="service-icon">📘</div>
+        <h3>Meta Ads</h3>
+        <p>Facebook e Instagram — mais de 3 bilhões de pessoas conectadas.</p>
+        <div class="service-tags"><span class="tag">Facebook</span><span class="tag">Instagram</span><span class="tag">Retargeting</span><span class="tag">Lookalike</span></div>
+        <a href="#contato" class="service-cta">Solicitar proposta →</a>
+      </div>
+      <div class="platform-objectives-only">
+        <h3 class="platform-objectives-title">Principais objetivos ao anunciar</h3>
+        <ul class="platform-objectives">
+          <li>Gerar reconhecimento de marca e demanda em escala com segmentação fina de público.</li>
+          <li>Converter em leads e vendas com funis de prospecção, remarketing e lookalike.</li>
+          <li>Testar criativos e mensagens com velocidade, otimizando custo por resultado.</li>
+        </ul>
+      </div>
+    </article>
+    <article class="platform-row platform-row--reverse reveal">
+      <div class="service-card service-card--google h-100">
+        <div class="service-num">— 02</div>
+        <div class="service-icon">🔍</div>
+        <h3>Google Ads</h3>
+        <p>Search, Display, Shopping e YouTube no maior ecossistema de busca.</p>
+        <div class="service-tags"><span class="tag">Search</span><span class="tag">Display</span><span class="tag">Shopping</span><span class="tag">YouTube</span></div>
+        <a href="#contato" class="service-cta">Solicitar proposta →</a>
+      </div>
+      <div class="platform-objectives-only">
+        <h3 class="platform-objectives-title">Principais objetivos ao anunciar</h3>
+        <ul class="platform-objectives">
+          <li>Captar quem já demonstra intenção — aparecer quando o cliente pesquisa sua solução.</li>
+          <li>Maximizar conversões em busca e shopping com lances e palavras-chave alinhados ao funil.</li>
+          <li>Ampliar alcance e remarketing com Display e YouTube para reforçar consideração e retorno.</li>
+        </ul>
+      </div>
+    </article>
+    <article class="platform-row reveal">
+      <div class="service-card service-card--linkedin h-100">
+        <div class="service-num">— 03</div>
+        <div class="service-icon">💼</div>
+        <h3>LinkedIn Ads</h3>
+        <p>A maior rede profissional para decisores e negócios B2B.</p>
+        <div class="service-tags"><span class="tag">B2B</span><span class="tag">Lead Gen</span><span class="tag">Awareness</span></div>
+        <a href="#contato" class="service-cta">Solicitar proposta →</a>
+      </div>
+      <div class="platform-objectives-only">
+        <h3 class="platform-objectives-title">Principais objetivos ao anunciar</h3>
+        <ul class="platform-objectives">
+          <li>Gerar leads qualificados por cargo, setor, empresa e tamanho de negócio.</li>
+          <li>Posicionar marca e ofertas em contexto profissional, ideal para ciclo de venda longo.</li>
+          <li>Apoiar ABM e patrocínio de conteúdo para nutrir decisores ao longo do tempo.</li>
+        </ul>
+      </div>
+    </article>
+    <article class="platform-row platform-row--reverse reveal">
+      <div class="service-card service-card--tiktok h-100">
+        <div class="service-num">— 04</div>
+        <div class="service-icon">🎵</div>
+        <h3>TikTok Ads</h3>
+        <p>Vídeos curtos com audiência jovem e altamente engajada.</p>
+        <div class="service-tags"><span class="tag">In-Feed</span><span class="tag">TopView</span><span class="tag">Spark Ads</span></div>
+        <a href="#contato" class="service-cta">Solicitar proposta →</a>
+      </div>
+      <div class="platform-objectives-only">
+        <h3 class="platform-objectives-title">Principais objetivos ao anunciar</h3>
+        <ul class="platform-objectives">
+          <li>Construir awareness e consideração com formatos nativos que prendem a atenção.</li>
+          <li>Impulsionar tráfego, instalações de app e conversões com campanhas orientadas a performance.</li>
+          <li>Testar criativos em ritmo alto e descobrir ângulos de mensagem que viralizam no feed.</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+  </div>
+</section>
+
+<!-- RESULTS -->
+<section id="resultados">
+  <div class="results-inner">
+    <div class="results-left reveal">
+      <h2>Números que comprovam os resultados</h2>
+      <p>Cada campanha é gerenciada com foco obsessivo em performance. Aqui estão alguns indicadores reais dos projetos em andamento.</p>
+      <a href="#contato" class="btn-primary" style="margin-top:2rem;display:inline-flex;background:#fff;color:#1D4ED8;">Quero esses resultados →</a>
+    </div>
+    <div class="results-grid reveal">
+      <div class="result-card"><h3>−47%</h3><p>Redução média no custo por lead</p></div>
+      <div class="result-card"><h3>+320%</h3><p>Aumento em conversões após landing page otimizada</p></div>
+      <div class="result-card"><h3>4.8×</h3><p>ROAS médio das campanhas gerenciadas</p></div>
+      <div class="result-card"><h3>+100</h3><p>Campanhas ativas gerenciadas</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="sobre">
+  <div class="about-layout">
+    <div class="about-visual reveal">
+      <div class="about-gfx">
+        <div class="rings">
+          <div class="ring"></div><div class="ring"></div><div class="ring"></div>
+          <div class="ring-center"></div>
+        </div>
+      </div>
+    </div>
+    <div class="about-text reveal">
+      <div class="section-label">Sobre</div>
+      <h2 class="section-title">Estratégia e dados a favor<br>do seu <em>crescimento</em></h2>
+      <p>Sou gestor de tráfego pago especializado em criar e otimizar campanhas que geram resultados reais para negócios que querem crescer de forma previsível e escalável.</p>
+      <p>Trabalho com método, transparência e foco total em números. Cada centavo do seu investimento é acompanhado de perto para garantir o melhor retorno possível.</p>
+      <ul class="about-list">
+        <li>Foco total em dados e performance</li>
+        <li>Relatórios semanais e comunicação ativa</li>
+        <li>Estratégia personalizada para cada nicho</li>
+        <li>Suporte direto sem intermediários</li>
+      </ul>
+      <a href="#contato" class="btn-primary" style="margin-top:2rem;display:inline-flex;">Fale comigo →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<!-- <section id="faq">
+  <div class="faq-layout">
+    <div class="faq-left reveal">
+      <div class="section-label">FAQ</div>
+      <h2 class="section-title">Perguntas<br><em>frequentes</em></h2>
+      <p class="section-desc">Tire suas dúvidas sobre gestão de tráfego, investimento, prazos e resultados antes de falar comigo.</p>
+      <a href="#contato" class="btn-primary" style="display:inline-flex;margin-top:2rem;">Ainda tem dúvidas? Fale comigo →</a>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-text">Qual o valor mínimo de investimento para começar?</span>
+          <div class="faq-icon">+</div>
+        </button>
+        <div class="faq-a"><p>Recomendo um investimento mínimo de R$ 1.500/mês em verba de mídia para que as campanhas tenham volume suficiente de dados para otimização. Para negócios menores, é possível começar com menos — avaliamos juntos o melhor cenário para seu momento.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-text">Em quanto tempo vejo resultados?</span>
+          <div class="faq-icon">+</div>
+        </button>
+        <div class="faq-a"><p>As primeiras semanas são de aprendizado do algoritmo. Resultados mais consistentes aparecem entre 30 e 60 dias. Esse período é essencial para coletar dados, testar criativos e otimizar o custo por aquisição de forma sustentável.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-text">Como funciona o modelo de cobrança?</span>
+          <div class="faq-icon">+</div>
+        </button>
+        <div class="faq-a"><p>Cobro uma mensalidade de gestão separada da verba investida nas plataformas. Você paga diretamente ao Meta, Google ou LinkedIn — a verba sempre fica 100% no seu controle. O valor da gestão varia conforme a quantidade de plataformas e campanhas.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-text">Você garante resultados?</span>
+          <div class="faq-icon">+</div>
+        </button>
+        <div class="faq-a"><p>Nenhum gestor sério garante resultados específicos, pois o desempenho depende de fatores como produto, mercado e oferta. O que garanto é dedicação total, transparência nos dados e otimizações constantes para maximizar seu retorno.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-text">Você cria os criativos dos anúncios?</span>
+          <div class="faq-icon">+</div>
+        </button>
+        <div class="faq-a"><p>Faço a estratégia e briefing dos criativos. Dependendo do pacote contratado, posso incluir produção de peças estáticas. Para vídeos e produções mais elaboradas, trabalho com parceiros criativos ou com o material que você já tem.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-text">Qual a diferença entre tráfego pago e orgânico?</span>
+          <div class="faq-icon">+</div>
+        </button>
+        <div class="faq-a"><p>Tráfego orgânico é conquistado ao longo do tempo via SEO e conteúdo — é mais demorado mas sustentável. Tráfego pago gera resultados imediatos: você investe e começa a aparecer para o público certo no mesmo dia. O ideal é combinar os dois.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-text">Preciso ter site para começar?</span>
+          <div class="faq-icon">+</div>
+        </button>
+        <div class="faq-a"><p>Não necessariamente. Para algumas campanhas, uma landing page otimizada já é suficiente — e eu também crio isso para você. Para estratégias mais completas, um site profissional faz diferença e posso desenvolvê-lo como parte do pacote.</p></div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- CONTACT -->
+<section id="contato">
+  <div class="contact-layout">
+    <div class="contact-left reveal">
+      <div class="section-label">Contato</div>
+      <h2 class="section-title">Vamos <em>conversar</em><br>sobre seu negócio?</h2>
+      <p class="section-desc">Preencha o formulário e entro em contato em até 24h para entender seus objetivos e apresentar uma proposta personalizada.</p>
+      <div class="contact-perks">
+        <div class="perk">
+          <div class="perk-icon">⚡</div>
+          <div class="perk-text">
+            <h5>Resposta em até 24h</h5>
+            <p>Retorno rápido por WhatsApp ou e-mail com próximos passos claros.</p>
+          </div>
+        </div>
+        <div class="perk">
+          <div class="perk-icon">🎯</div>
+          <div class="perk-text">
+            <h5>Diagnóstico gratuito</h5>
+            <p>Analiso suas campanhas atuais e identifico oportunidades sem custo.</p>
+          </div>
+        </div>
+        <div class="perk">
+          <div class="perk-icon">📊</div>
+          <div class="perk-text">
+            <h5>Proposta personalizada</h5>
+            <p>Estratégia sob medida para o seu nicho, orçamento e objetivos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form-wrap reveal">
+      <div id="formArea">
+        <div class="form-title">Solicite uma proposta</div>
+        <p class="form-sub">Sem compromisso. Apenas uma conversa para entender como posso ajudar.</p>
+        <div class="form-row form-row--3">
+          <div>
+            <label for="f-nome">Nome</label>
+            <input type="text" id="f-nome" name="nome" placeholder="Seu nome completo" autocomplete="name">
+          </div>
+          <div>
+            <label for="f-empresa">Empresa</label>
+            <input type="text" id="f-empresa" name="empresa" placeholder="Nome da sua empresa" autocomplete="organization">
+          </div>
+          <div>
+            <label for="f-tel">WhatsApp</label>
+            <input type="tel" id="f-tel" name="tel" placeholder="(51) 9 9999-9999" autocomplete="tel">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>E-mail</label>
+          <input type="email" id="f-email" placeholder="seu@email.com">
+        </div>
+        <div class="form-group">
+          <label>Qual serviço te interessa?</label>
+          <select id="f-servico">
+            <option value="" disabled selected>Selecione uma opção</option>
+            <option>Gestão de Meta Ads (Facebook/Instagram)</option>
+            <option>Gestão de Google Ads</option>
+            <option>Gestão de LinkedIn Ads</option>
+            <option>Gestão de TikTok Ads</option>
+            <option>Criação de Site</option>
+            <option>Criação de Landing Page</option>
+            <option>Pacote completo (Tráfego + Site)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Orçamento mensal em mídia</label>
+          <select id="f-budget">
+            <option value="" disabled selected>Selecione uma faixa</option>
+            <option>Até R$ 1.500</option>
+            <option>R$ 1.500 – R$ 5.000</option>
+            <option>R$ 5.000 – R$ 15.000</option>
+            <option>Acima de R$ 15.000</option>
+            <option>Ainda não sei / quero orientação</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Conte sobre seu negócio (opcional)</label>
+          <textarea id="f-msg" placeholder="Segmento, produto, principal desafio..."></textarea>
+        </div>
+        <button class="form-submit" onclick="submitForm()">Enviar mensagem →</button>
+        <p class="form-note">🔒 Seus dados são confidenciais e nunca serão compartilhados.</p>
+      </div>
+      <div class="form-success" id="formSuccess">
+        <div class="check">✅</div>
+        <h4>Mensagem enviada com sucesso!</h4>
+        <p>Recebi seu contato e responderei em até 24h.<br>Fique de olho no seu WhatsApp e e-mail.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-glow" aria-hidden="true"></div>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#" class="footer-logo">Flow<span>Ads</span></a>
+        <p class="footer-tagline">Gestão de tráfego pago com foco em ROI. Da estratégia à execução, campanhas que transformam cliques em clientes.</p>
+        <a href="#contato" class="footer-cta">Solicitar proposta →</a>
+      </div>
+      <nav class="footer-col" aria-label="Navegação do rodapé">
+      </nav>
+      <div class="footer-col">
+        <span class="footer-heading">Especialidades</span>
+        <ul class="footer-list">
+          <li><a href="#servicos">Meta &amp; Instagram Ads</a></li>
+          <li><a href="#servicos">Google Ads</a></li>
+          <li><a href="#servicos">LinkedIn &amp; TikTok</a></li>
+          <li><a href="#servicos">Sites &amp; landing pages</a></li>
+        </ul>
+      </div>
+      <div class="footer-col footer-col-contact">
+        <span class="footer-heading">Fale comigo</span>
+        <p class="footer-contact-text">Resposta em até 24h úteis. Atendimento remoto para todo o Brasil.</p>
+        <a href="https://wa.me/5551999999999?text=Olá! Vim pelo site FlowAds." class="footer-contact-link" target="_blank" rel="noopener">
+          <span class="footer-contact-icon" aria-hidden="true">💬</span>
+          WhatsApp
+        </a>
+        <a href="mailto:contato@flowads.com.br" class="footer-contact-link">
+          <span class="footer-contact-icon" aria-hidden="true">✉️</span>
+          contato@flowads.com.br
+        </a>
+        <div class="footer-social" aria-label="Redes sociais">
+          <a href="#" class="footer-social-link" aria-label="Instagram">Instagram</a>
+          <a href="#" class="footer-social-link" aria-label="LinkedIn">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 FlowAds. Todos os direitos reservados.</p>
+      <div class="footer-legal">
+        <a href="#">Política de privacidade</a>
+        <span class="footer-dot" aria-hidden="true">·</span>
+        <a href="#">Termos de uso</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/5551999999999?text=Olá! Vim pelo site e gostaria de saber mais sobre gestão de tráfego." class="wa-float" target="_blank" rel="noopener" aria-label="Chamar no WhatsApp">
+  <div class="wa-pulse"></div>
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+  <div class="wa-tooltip">Falar no WhatsApp</div>
+</a>
+
+<script>
+  window.addEventListener('scroll', () => {
+    document.getElementById('navbar').style.background =
+      window.scrollY > 40 ? 'rgba(5,6,8,0.97)' : 'rgba(5,6,8,0.82)';
+  });
+
+  function toggleMenu() {
+    document.getElementById('mobileNav').classList.toggle('open');
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) setTimeout(() => e.target.classList.add('visible'), i * 70);
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  function toggleFaq(btn) {
+    const item = btn.closest('.faq-item');
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  }
+
+  function submitForm() {
+    const nome = document.getElementById('f-nome').value.trim();
+    const email = document.getElementById('f-email').value.trim();
+    if (!nome || !email) {
+      [document.getElementById('f-nome'), document.getElementById('f-email')].forEach(inp => {
+        if (!inp.value.trim()) {
+          inp.style.borderColor = 'rgba(239,68,68,0.7)';
+          inp.style.boxShadow = '0 0 0 3px rgba(239,68,68,0.12)';
+          setTimeout(() => { inp.style.borderColor = ''; inp.style.boxShadow = ''; }, 2500);
+        }
+      });
+      return;
+    }
+    document.getElementById('formArea').style.display = 'none';
+    const s = document.getElementById('formSuccess');
+    s.style.display = 'flex';
+  }
+</script>
+</body>
+</html>
